@@ -1,0 +1,15 @@
+ul {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    transform: translateY(-250%);
+    transition: none;
+  }
+
+  .menu.open {
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+  }
+}
